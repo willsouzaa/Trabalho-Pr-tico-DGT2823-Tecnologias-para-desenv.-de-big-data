@@ -23,7 +23,7 @@ Como Executar
 -------------
 Clone o repositório:
    
-git clone https://github.com/seu-usuario/projeto-limpeza-dados.git
+git clone https://github.com/willsouzaa/Trabalho-Pr-tico-DGT2823-Tecnologias-para-desenv.-de-big-data.git
 
 Acesse a pasta:
 cd TrabalhoDGT2823
