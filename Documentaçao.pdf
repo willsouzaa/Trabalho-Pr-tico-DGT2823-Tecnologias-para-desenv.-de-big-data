@@ -1,0 +1,29 @@
+                                Objetivo
+                                ---------
+Tratar e limpar um conjunto de dados CSV para torná-lo apto à análise e mineração de dados, utilizando Python e Pandas.
+
+                            Passos Realizados
+                            -----------------
+
+1. Leitura do Arquivo CSV
+--------------------------
+df = pd.read_csv('dados.csv', sep=';', engine='python')
+
+2. Limpeza dos Dados
+--------------------
+Remoção de aspas simples da coluna Date;
+Conversão de valores não numéricos da coluna Calories para float;
+Substituição de datas mal formatadas (20201226) por 2020/12/26;
+Preenchimento de valores nulos em:
+Calories → 0
+Date → '1900/01/01'
+Conversão da coluna Date para o tipo datetime;
+Remoção de registros com dados inválidos;
+Eliminação de IDs duplicados.
+3. Resultado Final
+DataFrame limpo e livre de valores nulos ou inconsistentes;
+Pronto para análises estatísticas e mineração de dados.
+
+Considerações Finais
+---------------------
+Este exercício permite ao aluno aplicar na prática conceitos fundamentais de tratamento de dados, uma etapa essencial para qualquer projeto de Big Data. Ao final do projeto, os dados estão limpos, padronizados e prontos para uso em modelos analíticos.
